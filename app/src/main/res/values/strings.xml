@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UrbanGym</string>
+    <string name="login">Log in</string>
+    <string name="email">EMAIL</string>
+    <string name="emailaddress">EMAILADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgotpassword">Forgot Your Password</string>
 </resources>
