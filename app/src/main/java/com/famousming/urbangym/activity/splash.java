@@ -1,9 +1,11 @@
-package com.famousming.urbangym;
+package com.famousming.urbangym.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.famousming.urbangym.R;
 
 public class splash extends AppCompatActivity {
 
@@ -28,7 +30,7 @@ public class splash extends AppCompatActivity {
     }
 
     void openMain(){
-        Intent mainIntent = new Intent(splash.this, MainActivity.class);
+        Intent mainIntent = new Intent(splash.this, Login.class);
         startActivity(mainIntent);
     }
 
